@@ -16,13 +16,13 @@
   under the License.
 -->
 
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+<plugin
 xmlns:android="http://schemas.android.com/apk/res/android"
            id="ngcordova-oauth"
       version="0.0.1">
-    <name>File</name>
+    <name>ngCordova OAuth</name>
     <description>ngCordova Oauth Plugin</description>
     <license>Apache 2.0</license>
-    <keywords>cordova,file</keywords>
+    <keywords>cordova,oauth</keywords>
 <repo>https://github.com/pietermarchand/ng-cordova-oauth.git</repo>
 </plugin>
