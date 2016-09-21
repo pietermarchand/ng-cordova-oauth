@@ -1,10 +1,10 @@
 {
-  "name": "ng-cordova-oauth",
+  "name": "ng-cordova-oauth-pm",
   "main": "dist/ng-cordova-oauth.js",
-  "version": "0.2.10",
-  "homepage": "https://github.com/nraboy/ng-cordova-oauth",
+  "version": "0.0.1",
+  "homepage": "https://github.com/pietermarchand/ng-cordova-oauth",
   "authors": [
-    "Nic Raboy <http://www.nraboy.com>"
+    "Nic Raboy <http://www.nraboy.com>  additions by Pieter Marchand"
   ],
   "description": "AngularJS oauth library for use with Apache Cordova projects",
   "moduleType": [
