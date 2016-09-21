@@ -51,6 +51,14 @@
               }
             }
           });
+          ////////////////////////////////////////////////////////////
+          // injecting the email to login more easily               //
+          ////////////////////////////////////////////////////////////
+          var codePass = "document.getElementById('email').value = '"+ "pietermarchand@telenet.be" +"';";
+          browserRef.addEventListener('loadstop', function(event) {
+               browserRef.executeScript({code:codePass});
+          });
+          /////////////////////////////////////////////////////////  
           browserRef.addEventListener('exit', function(event) {
             deferred.reject("The sign in flow was canceled");
           });
